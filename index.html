@@ -1,96 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script defer src="/_vercel/insights/script.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
-    />
-    <title>Vercel HTML Starter</title>
-    <meta
-      name="description"
-      content="High-performance HTML based website template."
-    />
-  </head>
-  <body>
-    <h1>Vercel HTML Starter</h1>
-    <p>
-      This template is a simple, but powerful single
-      <code>index.html</code> file deployed to
-      <a href="https://vercel.com">Vercel</a>. When your site is deployed, all
-      static assets (like HTML, JavaScript, CSS, images, and more) are deployed
-      globally to every
-      <a href="https://vercel.com/docs/concepts/edge-network/overview"
-        >Vercel Edge Network</a
-      >
-      region.
-    </p>
-    <h2>Simple, privacy-friendly analytics</h2>
-    <p>
-      Want to understand your visitor traffic? Vercel Analytics gives you
-      first-party, privacy-friendly traffic analytics for your HTML site. This
-      template is already configured using the following script:
-    </p>
-    <pre><code>&lt;script defer src="/_vercel/insights/script.js"&gt;&lt;/script&gt;</code></pre>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/analytics">Vercel Analytics</a>.
-    </p>
-    <h2>Integrated with git</h2>
-    <p>
-      Deploying updates to your site is as simple as
-      <code>git push</code> thanks to Vercel's advanced
-      <a href="https://vercel.com/docs/concepts/git">Git Integration</a>.
-      Support for GitHub, GitLab, Bitbucket is zero-configuration, and with the
-      flexible Vercel CLI and API, you can integrate with any tool possible.
-    </p>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/git">Git Integration</a>.
-    </p>
-    <h2>Fast <code>gzip</code> compression</h2>
-    <p>
-      To help ensure the smallest possible file sizes for your static assets,
-      the Vercel Edge Network compresses files by default using
-      <code>gzip</code>. You can also optionally use
-      <code>brotli</code> compressesion if you prefer.
-    </p>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/edge-network/compression"
-        >compression</a
-      >.
-    </p>
-    <h2>Advanced routing configuration</h2>
-    <p>
-      Vercel gives you a variety of ways to configure the routing of your
-      website. For example, adding redirects, rewrites, or headers to your page.
-      While you can use <code>vercel.json</code> to define these through JSON,
-      you can also express your routing configuration as code using
-      <a href="https://vercel.com/docs/concepts/functions/edge-middleware"
-        >Vercel Edge Middleware</a
-      >.
-    </p>
-    <p>
-      Middleware runs before the
-      <a href="https://vercel.com/docs/concepts/edge-network/caching"
-        >Vercel Edge Network Cache</a
-      >, so you can configure routing exactly as your application needs. For
-      example, this template uses <code>middleware.js</code> defined in the root
-      of the repository to add additional security headers to the site:
-    </p>
-    <pre><code>referrer-policy: origin-when-cross-origin
-strict-transport-security: max-age=31536000; includeSubDomains; preload
-x-content-type-options: nosniff
-x-dns-prefetch-control: on
-x-frame-options: DENY</code></pre>
-    <p>
-      Learn more about
-      <a href="https://vercel.com/docs/concepts/functions/edge-middleware"
-        >Vercel Edge Middleware</a
-      >.
-    </p>
-  </body>
+
+<head>
+
+    <!--CSS loading-->
+    <!-- Mis Theme -->
+    <link nonce="nbxFG54aAaOTZjSL/cjrHg==" rel="stylesheet" type="text/css" href="/dist/lucide-fonts/arbor-fe-static.lucide.37b65729.css" /><link nonce="nbxFG54aAaOTZjSL/cjrHg==" rel="stylesheet" type="text/css" href="/dist/arbor-fe.main.032f922e3276f9288183.css" /><link nonce="nbxFG54aAaOTZjSL/cjrHg==" rel="stylesheet" type="text/css" href="/arborcharting/css/style.css?v=3.0.84724" /><link nonce="nbxFG54aAaOTZjSL/cjrHg==" rel="stylesheet" type="text/css" href="/dist/Ext/resources/arbor-fe-ext.Mis-all.ltr.min.524c7c94.css" /><link nonce="nbxFG54aAaOTZjSL/cjrHg==" rel="stylesheet" type="text/css" href="/dist/arbor-fe-static.editorContent.f6e48c2e.css" />
+    <meta name="msapplication-config" content="/static/arbor-fe-static.browserconfig-64a60fc2.xml" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="google-site-verification" content="fF-jXK7lcZA8Jv5pXPeyzhgvoiqxUm608KwhPZOmUIE" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>
+        The Cavendish School    </title>
+    <script nonce="nbxFG54aAaOTZjSL/cjrHg==">
+        var Arbor = {
+            cspNonce: "nbxFG54aAaOTZjSL\/cjrHg==",
+            componentCache: []
+        };
+
+        try { //Cookies disabled on firefox throw "SecurityError: The operation is insecure." on localStorage access
+            (typeof localStorage);
+        } catch (e) {
+
+            document.write('<div style="padding:100px 20px;text-align:center;z-index:999999999">' +
+                'You must enable cookies to continue' +
+                '<br/><br/>' +
+                'How to enable cookies:' +
+                '<br/><br/>' +
+                '<a href="http://support.google.com/accounts/bin/answer.py?hl=en&answer=61416"><b>Chrome</b></a></br>' +
+                '<a href="http://support.apple.com/kb/PH5042?viewlocale=en_US&locale=en_US"><b>Safari</b></a></br>' +
+
+                '</div>');
+
+            throw "Error in cookies";
+        }
+
+        var externalConfig = {"feVersion":"33.24.0","sentryJsEnabled":true,"sisSentryDSN":"https:\/\/49cdb0f5c9e8495d87ed60f628fdd356@sentry.io\/20283","feSentryDSN":"https:\/\/5879e8c659f0451fb421fa281f4357f3@sentry.io\/164238","jsBuildEnv":"production","stripeKey":null,"stripeKeyNew":"pk_live_0FNk5HnQ8lrb6A4y0llHgLor","insightStripeKey":"pk_live_LZ1pdstJpmXxzGgHJ8mZ6R4V","stripeAccountVerified":true,"stripePayoutRuleIsVerified":true,"applicationId":"uk_esx_138475","pushNotificationSettings":{"enabled":true,"key":"53fd8c679f8fc2cbcc84","cluster":"eu","encrypted":true,"log":"off"},"schoolInfo":{"schoolName":"The Cavendish School","schoolLogo":"https:\/\/the-cavendish-school.uk.arbor.sc\/content\/view\/id\/64057\/auth\/9a639aed-1774208131\/v\/67444\/width\/180\/height\/85"},"debugEnvironment":false,"reactBuildName":"index_bundle.js","jsDevUrl":"","reactUrl":"\/dist\/arbor-fe.main.12ddec8a050f612a03a4.js","cspNonce":"nbxFG54aAaOTZjSL\/cjrHg==","sso":true,"azureSso":false,"homepageNetworkingSettings":{"kpiCacheLifeTime":300000,"kpiDataDebounceTime":100,"kpiSettingsDebounceTime":1000},"colorScheme":"default","logger":{},"manifestManager":{}};
+    </script>
+
+    <link rel="icon" href="/static/arbor-fe-static.favicon-f348513566.ico" />
+    <link rel="shortcut icon" href="/static/arbor-fe-static.favicon-f348513566.ico" />
+
+    <!-- For Chrome for Android: -->
+    <link rel="icon" sizes="192x192" href="/static/arbor-fe-static.touch-icon-192x192-9d2e8170.png" />
+    <!-- For iPhone 6 Plus with @3× display: -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/arbor-fe-static.apple-touch-icon-180x180-precomposed-8dae6b65.png" />
+    <!-- For iPad with @2× display running iOS ≥ 7: -->
+    <link rel="apple-touch-icon" sizes="152x152" href="/static/arbor-fe-static.apple-touch-icon-152x152-precomposed-97a6e551.png" />
+    <!-- For iPad with @2× display running iOS ≤ 6: -->
+    <link rel="apple-touch-icon" sizes="144x144" href="/static/arbor-fe-static.apple-touch-icon-144x144-precomposed-58ce7b53.png" />
+    <!-- For iPhone with @2× display running iOS ≥ 7: -->
+    <link rel="apple-touch-icon" sizes="120x120" href="/static/arbor-fe-static.apple-touch-icon-120x120-precomposed-b16dbc9e.png" />
+    <!-- For iPhone with @2× display running iOS ≤ 6: -->
+    <link rel="apple-touch-icon" sizes="114x114" href="/static/arbor-fe-static.apple-touch-icon-114x114-precomposed-970a4ded.png" />
+    <!-- For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≥ 7: -->
+    <link rel="apple-touch-icon" sizes="76x76" href="/static/arbor-fe-static.apple-touch-icon-76x76-precomposed-b5685ffd.png" />
+    <!-- For the iPad mini and the first- and second-generation iPad (@1× display) on iOS ≤ 6: -->
+    <link rel="apple-touch-icon" sizes="72x72" href="/static/arbor-fe-static.apple-touch-icon-72x72-precomposed-bdf84b95.png" />
+    <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+    <link rel="apple-touch-icon" href="/static/arbor-fe-static.apple-touch-icon-precomposed-069dc365.png" />
+    <!-- 57×57px -->
+
+    <script nonce="nbxFG54aAaOTZjSL/cjrHg==" type="text/javascript">
+        window.globalConfig = {};
+    </script>
+
+</head>
+
+<body>
+            <div class="loading-spinner">
+            <div class="loading-spinner-background"></div>
+            <div class="loading-spinner__inner">
+                <div class="loading-spinner__circle loading-spinner__circle-left"></div>
+                <div class="loading-spinner__circle loading-spinner__circle-top"></div>
+                <div class="loading-spinner__circle loading-spinner__circle-right"></div>
+                <div class="loading-spinner__circle loading-spinner__circle-bottom"></div>
+            </div>
+            <div class="loading-spinner__text">Loading...</div>
+        </div>
+    
+    <noscript>
+        <div style="text-align:center">
+            <img alt="School logo" src="https://the-cavendish-school.uk.arbor.sc/content/view/id/64057/auth/9a639aed-1774208131/v/67444/width/180/height/85" />
+        </div>
+        <br />
+
+        <div style="font-family: Verdana;border-top: 1px solid #C46C15;border-bottom: 1px solid #C46C15;text-align: center;background: #F7921E;color: #624D43;font-weight: bold;padding: 7px 0;font-size: 13px;">
+            To ensure the best experience, you must <a href="http://www.enable-javascript.com/">enable javascript on
+                your browser</a>.
+        </div>
+    </noscript>
+
+        <div id="iframe_div" style="display:none"></div>
+
+    <!--Javascript loading-->
+
+    <script nonce="nbxFG54aAaOTZjSL/cjrHg==" type="text/javascript" src="/dist/Ext/arbor-fe-ext.build-all.min.776d8d04.js"></script><script nonce="nbxFG54aAaOTZjSL/cjrHg==" type="text/javascript" src="/arborcharting/build/arborcharting.min.js?v=3.0.84724"></script><script nonce="nbxFG54aAaOTZjSL/cjrHg==" src="https://cdn.ravenjs.com/3.16.1/raven.min.js"></script>
+    <script nonce="nbxFG54aAaOTZjSL/cjrHg==" type="text/javascript">
+        var currentUploadURL;
+        var lastUploadURL;
+
+        function initAppConfig() {
+            Mis.getApplication().setConfig("sentryEnabled", true);Mis.getApplication().setConfig('sisSentryDSN', 'https://49cdb0f5c9e8495d87ed60f628fdd356@sentry.io/20283');Mis.getApplication().setConfig('feLibraryVersion', '33.24.0');Mis.getApplication().setConfig('envType', 'production');Mis.getApplication().setConfig('reactUrl', '/dist/arbor-fe.main.12ddec8a050f612a03a4.js');Mis.getApplication().setConfig('cspNonce', 'nbxFG54aAaOTZjSL/cjrHg==');Mis.getApplication().setConfig('insightStripeKey', 'pk_live_LZ1pdstJpmXxzGgHJ8mZ6R4V');Mis.getApplication().setConfig('stripeKey', 'pk_live_0FNk5HnQ8lrb6A4y0llHgLor');Mis.getApplication().setConfig("schoolInfo", {"schoolName":"The Cavendish School","schoolLogo":"https:\/\/the-cavendish-school.uk.arbor.sc\/content\/view\/id\/64057\/auth\/9a639aed-1774208131\/v\/67444\/width\/180\/height\/85"});Mis.getApplication().setConfig("pushNotificationSettings", {"enabled":true,"key":"53fd8c679f8fc2cbcc84","cluster":"eu","encrypted":true,"log":"off"});Mis.getApplication().setConfig("isDebugEnvironment", false);        }
+    </script>
+        <script nonce="nbxFG54aAaOTZjSL/cjrHg==" src="https://js.stripe.com/v3/"></script>
+        <script nonce="nbxFG54aAaOTZjSL/cjrHg==" type="text/javascript" src="https://orchard.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/g2slup/b/9/c95134bc67d3a521bb3f4331beb9b804/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-GB&collectorId=8e486519"></script>
+
+        <script nonce="nbxFG54aAaOTZjSL/cjrHg==" type="text/javascript">
+            window.ATL_JQ_PAGE_PROPS = {
+
+                triggerFunction: function(showCollectorDialog) {
+
+                    window.showCollectorDialog = showCollectorDialog;
+
+                },
+                fieldValues: {
+                    // Institution type
+                    customfield_14049: [],
+                    // Feedback type
+                    customfield_14050: []
+                }
+            }
+
+
+        </script>
+        <script nonce="nbxFG54aAaOTZjSL/cjrHg==" type="text/javascript">
+            // handle onclick handlers in twig files
+
+            document.addEventListener('click', function(event) {
+                let link = event.target.closest('[data-onclick-load-page-url]');
+                if (link) {
+                    let url = link.dataset.onclickLoadPageUrl;
+                    Arbor.Interfaces.Loader.loadPage(url);
+                }
+            })
+
+        </script>
+</body>
+
 </html>
